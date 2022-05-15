@@ -1,13 +1,115 @@
-#blog-container {
-    margin-top: 14px;
+.navbar{
+    background-color: rgb(252, 227, 5);
+    
 }
-.card {
-    margin-top: 15px;
-    border-radius: 30px;
-    box-shadow: 5px 5px #888888;
-}
+
 
 #image-slider {
     padding-left: 0px;
     padding-right: 0px;
+}
+.navbar-brand{
+    padding-left: 10px;
+    padding-top: 5px;
+    color: green;
+    /* text-transform: uppercase; */
+    font-size: 30;
+    font-weight:bolder;
+    font-family: 'Righteous', cursive;
+}
+.navbar-brand:hover{
+    color: green;
+}
+.navbar-nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.navbar-nav li a:hover {
+    text-decoration: none;
+    color: green;
+    
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(252, 252, 4);
+    border-bottom: 2px solid #000;
+    
+}
+#carouselExampleCaptions{
+    padding-top: 0px;
+}
+.carousel-item img{
+    height: 500px;
+}
+.carousel-caption h5{
+    color: rgb(4, 40, 54);
+    font-size: 28px;
+    font-weight: 900;
+}
+.carousel-caption p {
+    color: rgb(10, 10, 10);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#blog-container {
+    margin-top: 14px;
+}
+.card {
+    margin-top: 25px;
+    
+    margin-bottom: 25px;
+    border-radius: 30px;
+    box-shadow: rgba(71, 71, 70, 0.936) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.card:hover{
+    opacity: 0.85;
+    color: limegreen;
+
+}
+.card-img-top{
+    height: 340px;
+    
+}
+footer{
+    background-color: yellow;
+}
+.mb-4 {
+    color: rgb(0, 0, 6);
+    font-weight: 700;
+}
+#mb-4 a{
+    color: blue;
+    border-bottom: 3px solid #fff;
+}
+#facebook{
+    color: rgba(10, 10, 241, 0.906);
+    font-size: 20px;
+}
+#twitter{
+    color: rgb(40, 192, 252);
+    font-size: 20px;
+}
+#google{
+    color: rgb(5, 96, 2);
+    font-size: 20px;
+}
+#instagram{
+    color: rgba(194, 26, 14, 0.906);
+    font-size: 20px;
+}
+#github{
+    color: rgba(0, 0, 7, 0.906);
+    font-size: 20px;
+}
+.list-unstyled li a {
+    text-decoration: none;
+    color: limegreen !important;
+}
+.list-unstyled li a:hover {
+    text-decoration: none;
+    color: rgb(249, 254, 249) !important;
 }
