@@ -113,3 +113,64 @@ footer{
     text-decoration: none;
     color: rgb(249, 254, 249) !important;
 }
+.content{
+    /* display: flex;
+    flex-direction: horizontal; */
+    padding: 20px;
+   overflow: auto;
+   justify-content: space-between;
+    
+}
+#card1{
+    float: left;
+}
+
+.sidebar img{
+    float: right;
+    margin-right: 20px;
+    border-radius: 50px;
+    background-color: rgb(205, 222, 239);
+    
+    
+}
+#myPic{
+    padding: 20px;
+    
+
+}
+.card-body h5{
+    font-size: 50px;
+    color: rgb(8, 120, 40);
+    font-family: 'Audiowide', cursive;
+font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Righteous', cursive;
+}
+.card-text {
+font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Righteous', cursive;
+font-size: 18px;
+color: gray;
+}
+.card-text i{
+    color: green;
+    font-size: 24px;
+}
+.form{
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: rgba(235, 243, 240, 0.205);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.form-label{
+color: rgba(34, 98, 52, 0.856);
+font-size: 18px;
+font-weight: 500;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .mb-3 {
+      width: 100%;
+    }
+  }
