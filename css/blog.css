@@ -151,6 +151,22 @@ font-family: 'Righteous', cursive;
 font-size: 18px;
 color: gray;
 }
+.card-body-blog{
+    padding: 20px;
+}
+.card-body-blog h5{
+    font-size: 20px;
+    color: rgb(8, 120, 40);
+    font-family: 'Audiowide', cursive;
+font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Righteous', cursive;
+}
+.card-text-blog {
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+font-size: 15px;
+color: gray;
+}
 .card-text i{
     color: green;
     font-size: 24px;
@@ -168,9 +184,66 @@ font-weight: 500;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .mb-3 {
-      width: 100%;
-    }
+
+  .profilePic img{
+      height: 165px;
+      width: 165px;
+      padding: 5px;
+      margin: 10px;
+      
+      border: 2px solid green;
+      border-radius: 50px;
+      
+      
   }
+.profilePic h2{
+    color: rgb(234, 231, 231);
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 2px 2px 5px #000;
+    /* text-transform: uppercase; */
+    font-family: 'Audiowide', cursive;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Righteous', cursive;
+}
+.profilePic p{
+    color: rgb(2, 27, 13);
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.profilePic span {
+    color: blue;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.week-container{
+    padding: 0px;
+    
+
+
+}
+.week-img{
+    background-color: #fff;
+    padding: 10px 5px;
+    object-fit: cover;
+    
+}
+.week-img img{
+    width: 500px;
+    height: 500px;
+}
+.week-blog{
+    background-color: rgb(245, 242, 238);
+    margin: 10px;
+}
+.week-blog h2{
+    color: rgb(4, 103, 153);
+    font-size: 16px;
+    border-bottom: 1px solid orangered;
+    padding: 10px;
+}
